@@ -2,7 +2,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div className='container mx-auto'>index</div>
+    <div className=''>index</div>
   )
 }
 

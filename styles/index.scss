@@ -14,11 +14,14 @@ a {
   text-decoration: none;
 }
 
-
 ::-webkit-scrollbar {
   @apply w-2 bg-slate-200 max-h-4 h-4;
 }
 
 ::-webkit-scrollbar-thumb {
   @apply rounded bg-gradient-to-b from-yellow-300 via-teal-400 to-pink-500 max-h-3 h-3;
+}
+
+#__next {
+  @apply flex flex-col lg:flex-row justify-start min-h-screen min-w-full z-50
 }
